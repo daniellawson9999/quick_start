@@ -1,0 +1,34 @@
+INFO     - 2019-08-20 23:18:25,531 - [__main__ main 125] Output files are saved in results/MineRLTreechop-v0/dddqn\20190820T231825.034670
+INFO     - 2019-08-20 23:18:25,532 - [utils log_versions 9] 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)]
+INFO     - 2019-08-20 23:18:25,645 - [utils log_versions 10] backcall==0.1.0,cached-property==1.5.1,certifi==2019.6.16,chainer==7.0.0b2,chainerrl==0.6.0,chardet==3.0.4,colorama==0.4.1,coloredlogs==10.0,cycler==0.10.0,decorator==4.4.0,filelock==3.0.12,future==0.17.1,gym==0.12.1,humanfriendly==4.18,idna==2.8,ipython==7.7.0,ipython-genutils==0.2.0,jedi==0.15.1,kiwisolver==1.1.0,lxml==4.4.1,matplotlib==3.1.1,minerl==0.2.3,numpy==1.17.0,opencv-python==4.1.0.25,parso==0.5.1,pickleshare==0.7.5,pillow==6.1.0,pip==19.2.2,prompt-toolkit==2.0.9,protobuf==3.7.1,psutil==5.6.3,pydot==1.4.1,pyglet==1.4.2,Pygments==2.4.2,pyparsing==2.4.2,pyreadline==2.1,Pyro4==4.76,python-dateutil==2.8.0,requests==2.22.0,scipy==1.3.1,serpent==1.28,setuptools==41.0.1,six==1.12.0,tqdm==4.34.0,traitlets==4.3.2,typing==3.6.6,typing-extensions==3.6.6,urllib3==1.25.3,wcwidth==0.1.7,wheel==0.33.4,wincertstore==0.2
+INFO     - 2019-08-20 23:18:25,646 - [__main__ _main 137] The first `gym.make(MineRL*)` may take several minutes. Be patient!
+INFO     - 2019-08-20 23:18:51,352 - [minerl.env.malmo.instance.93d95b _launch_minecraft 635] Starting Minecraft process: ['C:\\Users\\danie\\AppData\\Local\\Temp\\tmphuabrneg\\Minecraft\\launchClient.bat', '-port', '9001', '-env', '-runDir', 'C:\\Users\\danie\\AppData\\Local\\Temp\\tmphuabrneg\\Minecraft\\run']
+INFO     - 2019-08-20 23:18:51,424 - [minerl.env.malmo.instance.93d95b _launch_process_watcher 658] Starting process watcher for process 14748 @ localhost:9001
+INFO     - 2019-08-20 23:22:10,835 - [minerl.env.malmo.instance.93d95b launch 498] Minecraft process ready
+INFO     - 2019-08-20 23:22:10,849 - [__main__ wrap_env 151] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2019-08-20 23:22:10,880 - [minerl.env.malmo log_to_file 513] Logging output of Minecraft to results/MineRLTreechop-v0/dddqn\20190820T231825.034670\logs\mc_1.log
+INFO     - 2019-08-20 23:22:10,992 - [env_wrappers __init__ 270] always pressing keys: ['attack']
+INFO     - 2019-08-20 23:22:10,992 - [env_wrappers __init__ 276] reversed pressing keys: ['forward']
+INFO     - 2019-08-20 23:22:10,992 - [env_wrappers __init__ 281] always ignored keys: ['back', 'left', 'right', 'sneak', 'sprint']
+INFO     - 2019-08-20 23:22:10,993 - [env_wrappers __init__ 315] Dict(attack:Discrete(2), back:Discrete(2), camera:Box(2,), forward:Discrete(2), jump:Discrete(2), left:Discrete(2), right:Discrete(2), sneak:Discrete(2), sprint:Discrete(2)) is converted to Discrete(5).
+INFO     - 2019-08-20 23:22:10,993 - [__main__ wrap_env 151] Detected `gym.wrappers.TimeLimit`! Unwrap it and re-wrap our own time limit.
+INFO     - 2019-08-20 23:22:10,996 - [env_wrappers __init__ 270] always pressing keys: ['attack']
+INFO     - 2019-08-20 23:22:10,996 - [env_wrappers __init__ 276] reversed pressing keys: ['forward']
+INFO     - 2019-08-20 23:22:10,996 - [env_wrappers __init__ 281] always ignored keys: ['back', 'left', 'right', 'sneak', 'sprint']
+INFO     - 2019-08-20 23:22:10,997 - [env_wrappers __init__ 315] Dict(attack:Discrete(2), back:Discrete(2), camera:Box(2,), forward:Discrete(2), jump:Discrete(2), left:Discrete(2), right:Discrete(2), sneak:Discrete(2), sprint:Discrete(2)) is converted to Discrete(5).
+ERROR    - 2019-08-20 23:22:11,405 - [__main__ main 132] execution failed.
+Traceback (most recent call last):
+  File "dqn_family.py", line 130, in main
+    _main(args)
+  File "dqn_family.py", line 250, in _main
+    batch_accumulator=args.batch_accumulator, phi=phi)
+  File "D:\Users\danie\Anaconda3\envs\mine\lib\site-packages\chainerrl-0.6.0-py3.7.egg\chainerrl\agents\dqn.py", line 136, in __init__
+    cuda.get_device(gpu).use()
+  File "D:\Users\danie\Anaconda3\envs\mine\lib\site-packages\chainer-7.0.0b2-py3.7.egg\chainer\backends\cuda.py", line 344, in get_device
+    return _get_cuda_device(*args)
+  File "D:\Users\danie\Anaconda3\envs\mine\lib\site-packages\chainer-7.0.0b2-py3.7.egg\chainer\backends\cuda.py", line 351, in _get_cuda_device
+    check_cuda_available()
+  File "D:\Users\danie\Anaconda3\envs\mine\lib\site-packages\chainer-7.0.0b2-py3.7.egg\chainer\backends\cuda.py", line 138, in check_cuda_available
+    raise RuntimeError(msg)
+RuntimeError: CUDA environment is not correctly set up
+(see https://github.com/chainer/chainer#installation).No module named 'cupy'

@@ -1,0 +1,457 @@
+commit 043a1eefa15dbdf052f886476758e4b4bb862feb
+Merge: d8687a2 7ec7dab
+Author: William Guss <carlostnb@gmail.com>
+Date:   Wed Aug 7 08:39:28 2019 -0400
+
+    Merge pull request #8 from ashishgaurav13/fix_reset_trim
+
+commit 7ec7dab55c02d7f4e9f66c2c0158caca8f72e900
+Author: Ashish Gaurav <agaurav77@yahoo.com>
+Date:   Wed Aug 7 00:05:23 2019 -0400
+
+    remove ResetInfoTrimWrapper
+
+commit d8687a2c5e54b836c214556c6754cb79cc7038f9
+Author: William Guss <carlostnb@gmail.com>
+Date:   Tue Aug 6 13:18:36 2019 -0400
+
+    Update README.md
+
+commit 9ad76afd29b2b6e1f3f25fe03fe926286d3feb63
+Author: Ashish Gaurav <agaurav77@yahoo.com>
+Date:   Tue Aug 6 01:30:19 2019 -0400
+
+    comment out ResetTrimInfoWrapper
+
+commit a8b98d7d39f9e783df74ad84934310f9e11bc5cd
+Author: William Guss <carlostnb@gmail.com>
+Date:   Sun Aug 4 11:00:32 2019 -0400
+
+    Update README.md
+
+commit 7ca8c31fd0e0c1fb1252c71cbb275c9718932ace
+Author: William Guss <carlostnb@gmail.com>
+Date:   Thu Aug 1 14:10:00 2019 -0400
+
+    Final update of the main read me!.
+
+commit 4da12f93e3316aca643fb136e73c7c64fcd08159
+Author: William Guss <carlostnb@gmail.com>
+Date:   Thu Aug 1 14:08:16 2019 -0400
+
+    Updating the competition info.
+
+commit f08c850013fa59527d335dca2288a91fac96bb3b
+Author: William Guss <carlostnb@gmail.com>
+Date:   Thu Aug 1 12:08:54 2019 -0400
+
+    Updating the readme for the competition!
+
+commit 64b7b0f8a000e329cd9a6b3a29d54f46d58f96e1
+Author: William Guss <carlostnb@gmail.com>
+Date:   Wed Jul 31 18:09:00 2019 -0400
+
+    Updating baseliens folder structure and adding competition baselines.
+
+commit 462b3e245c0ba4fb3743470008c175691f9d27fd
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Wed Jul 31 15:29:03 2019 -0400
+
+    Delete sample.py
+
+commit 95cad5559cf75ca9a759f15c3abaf64b8cf4a54e
+Author: William Guss <carlostnb@gmail.com>
+Date:   Wed Jul 31 15:22:55 2019 -0400
+
+    Update README.md
+
+commit 6abdac108f5bfc24f78a46d3509b0de7ac931a97
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat Jun 8 09:24:48 2019 -0400
+
+    Don't use default_action
+
+commit 9ee733159fef9e18d2881253a954e74d6fb04ec3
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Mon Jul 15 13:15:40 2019 -0400
+
+    Update README.md
+
+commit 9691f0f5483f377783801697d851cf8f3e62bf7b
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 13:22:09 2019 -0600
+
+    Update README.md
+
+commit 7234d975884acc6af5018f1516c3b44c94ddf23c
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 13:01:59 2019 -0600
+
+    Delete dqn_navigate_sample.py
+
+commit a19e514d8a44effb68273c28068d9c4921c71f59
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 12:59:54 2019 -0600
+
+    Update README.md
+
+commit da6f93ba0fce97ff03408f59de07b98a1caa0c9a
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 12:59:27 2019 -0600
+
+    Delete sample.py
+
+commit bd6f80701b503006af6a6f090b9ecce5e80d9940
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 12:59:13 2019 -0600
+
+    Update README.md
+
+commit 9e38ca3fd692cdd5683e68c0183909cd1d39a4d0
+Merge: 67fb146 15076e5
+Author: William Guss <carlostnb@gmail.com>
+Date:   Fri Jul 12 14:38:18 2019 -0400
+
+    Merge pull request #3 from keisuke-nakata/master
+    
+    Baseline with ChainerRL (first release)
+
+commit 15076e5f41e2fbc5fe638fd0285085512b12e288
+Merge: b1faef2 89e6b46
+Author: keisuke-nakata <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 20:55:46 2019 +0900
+
+    Merge pull request #6 from keisuke-nakata/add-table
+    
+    Shiroshita-san's comment
+
+commit 89e6b4626934a9ff1ac0826bd1f5d8dc7cfbb282
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 20:54:10 2019 +0900
+
+    fix ChainerRL version
+
+commit e800c4fa3e6d66720725733a1a11121e8481cc30
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 20:48:46 2019 +0900
+
+    original repo
+
+commit 8ca014548ae1c78c7f25dc21b6322e1bad702ef3
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 20:45:35 2019 +0900
+
+    our imple. does not use trajectory
+
+commit 4173483604ab24c99976dada750ea0ff0e1a8086
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 20:43:15 2019 +0900
+
+    add table and some reformat
+
+commit b1faef2456699e2e2199cf3eca79ab6cb59ead63
+Merge: 95393f6 8f5965b
+Author: keisuke-nakata <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 19:43:37 2019 +0900
+
+    Merge pull request #5 from keisuke-nakata/replace-video-add-gif
+    
+    replace video and add gif animations
+
+commit 8f5965b4c640f4c767421fda18e356674b5b2e6f
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 17:53:04 2019 +0900
+
+    replace video and add gif
+
+commit 95393f68f669cb7d844d51b06c9b5657b73d07d9
+Merge: d49b138 ddee9ab
+Author: keisuke-nakata <keisuke.nakata.919@gmail.com>
+Date:   Tue Jul 9 14:37:37 2019 +0900
+
+    Merge pull request #4 from keisuke-nakata/ummavi-patch-1
+    
+    Update README.md
+
+commit ddee9abf4a637def0c5f654b1f17d1d14bed7580
+Author: Avinash Ummadisingu <6052050+ummavi@users.noreply.github.com>
+Date:   Mon Jul 8 21:29:09 2019 +0900
+
+    Update README.md
+    
+    Minor changes and typo fixes.
+
+commit d49b138de5b193b2116dbaa2d2e488ab0d153c36
+Merge: cb9dbc7 a2a7933
+Author: keisuke-nakata <keisuke.nakata.919@gmail.com>
+Date:   Mon Jul 8 20:00:00 2019 +0900
+
+    Merge pull request #3 from keisuke-nakata/video
+    
+    Video
+
+commit a2a79331ce1183fc0242f4e6d9d72314dd2307b2
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Mon Jul 8 19:59:00 2019 +0900
+
+    video
+
+commit cb9dbc7ff1151ab179c73ffa1e0a7981e3783bc5
+Author: Prabhat Nagarajan <prabhat.nagarajan@gmail.com>
+Date:   Mon Jul 8 19:12:20 2019 +0900
+
+    Update README.md
+
+commit b3458e98e7f4a684078fe38020a56bc0ae1ed5f4
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Mon Jul 8 19:09:19 2019 +0900
+
+    dummy
+
+commit eb44a0fa86ad3bbe563c0b08c37e8760565d25e2
+Merge: 67fb146 5654012
+Author: keisuke-nakata <keisuke.nakata.919@gmail.com>
+Date:   Mon Jul 8 18:42:21 2019 +0900
+
+    Merge pull request #1 from keisuke-nakata/readme-draft
+    
+    Baseline readme draft
+
+commit 565401215d8de89e6ae71e678272796eb7107153
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Mon Jul 8 18:41:36 2019 +0900
+
+    draft
+
+commit 24cff010b1353c1b612c6672fd8dadbac57b6276
+Author: NAKATA Keisuke <keisuke.nakata.919@gmail.com>
+Date:   Fri Jul 5 12:38:54 2019 +0900
+
+    draft
+
+commit 67fb1464698ee39b06275667b78b0d1c46cb6ba7
+Author: William Guss <carlostnb@gmail.com>
+Date:   Sat Jun 8 14:55:36 2019 +0200
+
+    Update README.md
+
+commit 071ffeaef086c0c09b14ec809009152e82f33a79
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Sat Jun 8 03:29:29 2019 -0400
+
+    Update README.md
+
+commit 35e999b38b285a8970ed48abe734e840d30680d5
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Sat Jun 8 03:08:33 2019 -0400
+
+    Update README.md
+
+commit 70540733c469a2272bcb4c0488fcd7d0f6260258
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat Jun 8 02:46:17 2019 -0400
+
+    Make default env ObtainDiamondDense
+
+commit 97140cbcd965904169c7d09da1522b7281516f45
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Sat Jun 8 02:42:53 2019 -0400
+
+    Update README.md
+
+commit 89370544aab173e7357142601ea05e84155f28f2
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat Jun 8 02:23:33 2019 -0400
+
+    Update sample to prevent printing of pov observation
+
+commit ddb38b4a4d6c468f000d7e75e65427d9d0bce203
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat Jun 8 01:01:50 2019 -0400
+
+    Added dict wrapper for observations
+
+commit 7438b7d50f27d75004a7a4e610ee89e9a6df7546
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Mon May 27 21:18:39 2019 -0600
+
+    Added debug env to test handlers
+
+commit 22cda49284eea4be1896b5d31c64a270de85646e
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Fri Jun 7 00:05:59 2019 -0400
+
+    Update README.md
+
+commit 875a9ac6df9e084e30a7b93b9e56d2cc5d408759
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Thu Jun 6 23:56:16 2019 -0400
+
+    Update README.md
+
+commit 524cdcf3608dfa71dc759ae02a9c6bb8b1ecb41d
+Merge: 1602aa5 14d6603
+Author: William Guss <carlostnb@gmail.com>
+Date:   Thu Jun 6 12:09:05 2019 +0200
+
+    Merge branch 'master' of github.com:minenetproject/quick_start
+
+commit 1602aa5be411e61f4b0a07be1609f112a343e046
+Author: William Guss <carlostnb@gmail.com>
+Date:   Thu Jun 6 12:04:37 2019 +0200
+
+    Adding the iron pickaxe craft event.
+
+commit 14d6603311246944f62035f2cd0ccddc996c44c0
+Author: MineRL Labs <minerl@andrew.cmu.edu>
+Date:   Mon Jun 3 10:54:02 2019 -0400
+
+    Create LICENSE
+
+commit 0bb93ec001c635e1520528fe29c61f9bc3af4016
+Author: William Guss <carlostnb@gmail.com>
+Date:   Mon Jun 3 11:55:31 2019 +0200
+
+    Updating gitignore and adding a DQN navigate sample from OpenAI Baselines.
+
+commit b771398ca058781aed63d2d583a60dc64ddc1b78
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Mon Jun 3 01:14:23 2019 -0400
+
+    Obtain diamond (#1)
+    
+    * Added debug env to test handlers
+    
+    * Add attack action for validation
+    
+    * Removed attack
+    
+    * Improved testing of obtain envs
+    
+    * Added equip handler, fixed nearbyCraft and nearbySmelt handlers
+    Updated quick_start test to demonstrate these features
+    
+    * Fixed behavior of place command
+    
+    * Added demonstration of tree-chop reward
+    Moved test sample to flat world
+
+commit d95fc408d55e049d9b8a94c10a24687332c573d7
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sun May 26 21:40:22 2019 -0600
+
+    Added default action for all current environments
+    Updated sample script for testing
+
+commit 1fe88e35d5cb468368afbba45229719b7a5ffa25
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sun May 26 19:55:20 2019 -0600
+
+    Update README.md
+
+commit 8727824956a1240a184ec9b1d37ddd011409d379
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sun May 26 19:42:20 2019 -0600
+
+    Update README.md
+
+commit fecf06f3efffeaf9c52681c0414cf8c4c4e35187
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sun May 26 18:17:28 2019 -0600
+
+    Added ObtainIronPickaxe and ObtainDiamond environments
+    Added updated sample.py to demonstrate dict action space
+    Added debug statements to enum gym space
+    Added support for string and integer enum values
+    Needs testing:
+    Quit handlers; craft, smeltNearby, craftNearby handlers;
+
+commit 25f73bbf446bc4d7a7beb9bce504c30edb961102
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Wed May 22 15:49:58 2019 -0600
+
+    Added NavigateExtreme environments and fixed navigationDenseFixedMap
+    Added environment MineRLNavigateExtreme-v0
+    Added environment MineRLNavigateExtremeDense-v0
+    Changed compass randomization to reflect human experiment parameters
+    Added fixed_surface placement type for navigation decorator
+
+commit 88067e0911d57751b7fa69ba429a1044c76a4a10
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue May 14 19:47:15 2019 -0400
+
+    Working data queue with single samples of sequence length 32
+    Currently samples are returned sequentially in chunks of 32
+
+commit 0d5f3ffcd9284b3ec20cdbfcd937a879e8c347d3
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Mon May 13 00:22:59 2019 -0400
+
+    Fixed data pipeline to load all elements of data
+
+commit dab1b969960ea6b9be8902a14fe19d0004a1d8cf
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sun May 12 23:56:39 2019 -0400
+
+    Updated documentation, modified samples
+
+commit 5410b13a6c75b73c9536b95ec0fa3b8d02b594a8
+Merge: a7b4930 9250bbd
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue May 7 17:50:08 2019 -0400
+
+    Merge branch 'master' of https://github.com/minenetproject/quick_start
+
+commit a7b4930bf60e59ad42d69b0a1a435d44d9398167
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue May 7 17:50:01 2019 -0400
+
+    Add python based gitignore file
+
+commit 9250bbd9b7c74820a6b3436dfc29fa199906e10a
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue May 7 13:53:09 2019 -0400
+
+    Update sample.py
+
+commit bf8605b07ac2f76e9be38c94eb6ea116379286cb
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat May 4 15:24:33 2019 -0400
+
+    Improved sample
+
+commit 0f0b5ed579200dde8130d40fb173e15fa496910a
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Sat May 4 14:29:19 2019 -0400
+
+    Updated sample code
+
+commit d0ab1a00d3a5e36d62db3b294ef7169bea6ec7e2
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Fri May 3 12:13:20 2019 -0400
+
+    Updated quick start sample to reflect new env changes
+
+commit 752e7d76dd8b69edb5cca86fcdbd82fdcdba6af3
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Wed May 1 21:49:29 2019 -0400
+
+    Fixed Multiprossesing bug
+
+commit 12e6d90a3b9360681da61a0d78bb3f362ef75437
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue Apr 30 20:09:34 2019 -0400
+
+    WIP - Working to remove windows multithreading bugs in video loader
+
+commit 31e0edee0c01ca7277d8477dcda9d8c19d7f9f21
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Fri Apr 26 18:46:41 2019 -0400
+
+    Misc work
+
+commit 912c9a37671df24b534fd9e85f33beb864dca950
+Author: Brandon Houghton <bhoughton@cmu.edu>
+Date:   Tue Apr 23 18:43:59 2019 -0400
+
+    Adjusted module to pypi package format
